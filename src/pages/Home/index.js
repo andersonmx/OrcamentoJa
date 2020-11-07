@@ -23,8 +23,9 @@ export default function Home({ navigation }) {
 				</Text>
 
 				<TouchableOpacity
-        			style={styles.orcamento}
-				>
+			        onPress={ () => navigation.navigate('Orcamento') }
+			        style={styles.orcamento}
+			      >
 					<Text style={styles.orcamentoText}>Fazer Orçamento</Text>
 				</TouchableOpacity>
 			</ScrollView>
