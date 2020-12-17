@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "32363183893",
+    "project_id": "orcamentoja-e5d4c",
+    "storage_bucket": "orcamentoja-e5d4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32363183893:android:2fe873cac80c2598faf31c",
+        "android_client_info": {
+          "package_name": "com.orcamentoja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32363183893-028ntlreui56cf3fm669ao5lnl8drl3g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsvG1zjDwGdrcNSK5I-CYfzDntUu7ktHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32363183893-028ntlreui56cf3fm669ao5lnl8drl3g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

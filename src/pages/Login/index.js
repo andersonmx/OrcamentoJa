@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import fire from './fire';
 import {
   StyleSheet,
   ScrollView,
@@ -10,6 +11,19 @@ import {
 } from 'react-native';
 
 export default function Login({ navigation }) {
+
+  const [user, setUser] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [emailError, setEmailError] = useState('');
+  const [passwordError, setPasswordError] = useState('');
+  const [hasAccount, setHasAccount] = useState(false);
+
+  const handleLogin = () => {
+    fire
+      .auth()
+      .signInWithEmailAndPassword(email, password);
+  }
 
   var email = '';
   var password = '';
